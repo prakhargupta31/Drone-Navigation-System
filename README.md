@@ -18,10 +18,14 @@ The Drone Navigation System is a Python-based project designed for autonomous dr
 
 # Project Structure
 
-├── drone_navigation.py          # Main integration script
-├── drone_movement.py            # Handles movement controls
-├── drone_obstacle_detection.py  # Processes LiDAR sensor data
-├── battery_simulation.py        # Simulates battery usage
+├── Astar_algorithm.py           # Implements A* path planning
+├── batterysimulation.py         # Simulates battery usage
 ├── data_logging.py              # Logs navigation and system data
+├── drone_movement.py            # Handles movement controls
+├── drone_obstacle.py            # Processes LiDAR sensor data
+├── dynamicobstacle.py           # Handles moving obstacle detection
+├── wind.py                      # Simulates wind effects on navigation
+├── integration.py               # Integrates drone_obstacle and drone_movement
+├── final.py                     # Final execution script
 ├── config.py                    # Configuration settings
 ├── README.md                    # Project documentation
